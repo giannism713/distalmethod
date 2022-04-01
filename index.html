@@ -66,11 +66,13 @@
                         <!-- <li><a href="#">Books</a></li> -->
                         <li><a href="#faq">FAQ</a></li>
                         <li><a href="#apps">Apps</a></li>
+                        <li><a href="certificate.html" target="_blank">Coaching School</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
                 <div class="top-btn">
                     <a href="https://neuropaedia.learnworlds.com/course?courseid=tennis" class="btn" target="_blank">Online Courses <i class="fa-solid fa-person-chalkboard"></i></a>
+                    <!-- <a href="https://neuropaedia.learnworlds.com/course?courseid=tennis" class="btn" target="_blank">Coaching School <i class="fa-solid fa-person-chalkboard"></i></a> -->
                 </div>
                 <div class="toggle-bar">
                     <button id="menu-toggle">
@@ -90,16 +92,18 @@
                         </div>
                         <div class="menu-area">
                             <ul>
-                                <li class="active"><a href="#">Home</a></li>
+                                <li><a href="#">Home</a></li>
                                 <li><a href="#foundations">Foundations</a></li>
                                 <li><a href="#applications">Applications</a></li>
                                 <!-- <li><a href="#">Books</a></li> -->
                                 <li><a href="#faq">FAQ</a></li>
                                 <li><a href="#apps">Apps</a></li>
                                 <li><a href="#contact">Contact</a></li>
+                                <li><a href="https://neuropaedia.learnworlds.com/course?courseid=tennis" class="btn" target="_blank" style="color: white; text-align: center;">Online Courses <i class="fa-solid fa-person-chalkboard" style="color: white;"></i></a>
+                                </li>
                             </ul>
                         </div>
-                    </div>
+                    </div>  
                 </div>
             </div>
         </header>
@@ -630,6 +634,28 @@
     </div>
 </div>
 
+<button onclick="topFunction()" id="myBtn" title="Πάτα για να πας πάνω"><i class="fa-solid fa-arrow-up"></i></button>
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
 
 
 
