@@ -864,7 +864,7 @@ img{
 #myBtn {
   display: none;
   position: fixed;
-  bottom: 1550px;
+  bottom: 100px;
   right: 30px;
   z-index: 99;
   font-size: 18px;
@@ -880,5 +880,13 @@ img{
 
 #myBtn:hover {
   background-color: var(--hover-color);
+}
+
+/* 386px */
+@media screen and (max-width: 386px) {
+    #myBtn {
+        bottom: 130px;
+
+    }
 }
 
