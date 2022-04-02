@@ -653,6 +653,13 @@ img{
     }
 }
 
+@media screen and (max-width: 508px){
+.store-icons a{
+    margin: 5px 0px;
+}
+}
+
+
 
 /* ----- PROJECTS SECTION ----- */
 
@@ -856,7 +863,7 @@ img{
 #myBtn {
   display: none;
   position: fixed;
-  bottom: 80px;
+  bottom: 100px;
   right: 30px;
   z-index: 99;
   font-size: 18px;
