@@ -270,6 +270,11 @@ background-color: var(--color-primary-7)
   font-family: var(--font-quicksand);
 }
 
+.table td:last-child {
+    background-color: var(--color-primary);
+    color: white;
+}
+
 .table th{
 	background-color: var(--color-primary);
 	color:#ffffff;
