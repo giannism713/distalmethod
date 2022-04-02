@@ -526,7 +526,8 @@ nav {
 
 img{
     width: 100%;
-    display: block;
+    /* display: block; */
+    max-width: 100%;
 }
 .main-wrapper{
     margin-top: 50px;
@@ -863,7 +864,7 @@ img{
 #myBtn {
   display: none;
   position: fixed;
-  bottom: 100px;
+  bottom: 1550px;
   right: 30px;
   z-index: 99;
   font-size: 18px;
@@ -880,3 +881,4 @@ img{
 #myBtn:hover {
   background-color: var(--hover-color);
 }
+
