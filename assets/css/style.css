@@ -1593,7 +1593,7 @@ z-index: 999;
   color: var(--color-primary);
 }
 
-.foooter .share a:hover {
+.footer .share a:hover {
   color: var(--hover-color);
 }
 

@@ -22,6 +22,9 @@
     .section-counter .container {
         min-width: 1200px;
     }
+    .nav-menu ul li a {
+        font-size: 17px;
+    }
 }
 
 

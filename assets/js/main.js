@@ -125,3 +125,5 @@ imgSecond.addEventListener('mouseover', () => {
 imgSecond.addEventListener('mouseleave', () => {
     document.querySelector('.content-right img:first-child').style.opacity = 1;
 });
+
+// image slider

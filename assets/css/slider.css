@@ -2,7 +2,6 @@
 body {
   margin: 0;
   /* background-color: #00171f; */
-  font-family: 'Alata', sans-serif;
 }
 
 :root {
@@ -30,7 +29,7 @@ body {
 .container-cards {
   display: flex;
   margin: 20px auto;
-  background-color: white;
+  background: transparent;
   height: 365px;
   /* width: 100%; */
   width: 100%;
@@ -72,15 +71,16 @@ dt {
   justify-content: center;
   align-items: center;
   --size: 20vmin;
-  bottom: 50%;
-  width: 500px;
-  height: var(--size);
-  font-size: 50px;
+  bottom: 55%;
+  width: 50%;
+  /* height: var(--size); */
+  font-size: 40px;
   opacity: 0;
   -webkit-transform: translateY(100%);
           transform: translateY(100%);
   -webkit-animation: dt 45s cubic-bezier(0.23, 1, 0.32, 1) infinite;
           animation: dt 45s cubic-bezier(0.23, 1, 0.32, 1) infinite;
+          height: 50px;
 }
 
 dt:after {
@@ -354,4 +354,13 @@ dd:nth-child(22) {
     opacity: 0;
   }
 }
+
+@media screen and (max-width: 580px) {
+  .dt {
+    margin-top: 500px;
+  }
+ }
+
+
+
 /*# sourceMappingURL=slider.css.map */
