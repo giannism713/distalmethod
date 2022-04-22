@@ -975,6 +975,7 @@ width: 100%;
     white-space: normal;
     overflow: hidden;
     height: 500px;
+    padding: 10px;
 }
 
 .mainTextHero{
@@ -1061,4 +1062,32 @@ width: 100%;
 .btn-hero,
 input {
     overflow: visible;
+}
+
+.btn-container {
+    padding: 10px; 
+    background-color: white; 
+    border-radius: 20px; 
+    width: 40%;
+}
+
+@media screen and (max-width: 484px) {
+    .btn-container {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 336px) {
+    .btn-container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-height: 672px) {
+    .heroTextContainer {
+        height: 70%;
+    }
+    .btn-container {
+        margin-bottom: 10px;
+    }
 }

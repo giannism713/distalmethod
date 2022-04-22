@@ -1361,12 +1361,6 @@ select:focus {
   z-index: 0;
 }
 
-@media screen and (max-width: 1432px) {
-  .faq .faq-content-wrapper {
-    margin-left: 20px;
-  }
-  
-}
 
 
 /* ----- PRICING SECTION ----- */
