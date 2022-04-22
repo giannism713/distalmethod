@@ -1710,3 +1710,35 @@ transition: 0.3s ease-in-out;
 #myBtn:hover {
 background-color: var(--hover-color);
 }
+
+@media screen and (max-width: 1659px) {
+
+.nav-menu {
+  width: 120%;
+}
+
+}
+
+@media screen and (max-width: 1615px) {
+
+  .nav-menu {
+    width: 90%;
+  }
+  
+}
+
+@media screen and (max-width: 1583px) {
+
+  .nav-menu {
+    width: 100%;
+  }
+  
+}
+
+@media screen and (max-width: 1561px) {
+
+  .nav-menu {
+    width: 140%;
+  }
+  
+}
