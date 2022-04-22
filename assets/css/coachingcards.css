@@ -79,8 +79,8 @@ body {
 }
 
 .blog-card:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
 }
 
 .blog-card .meta {
@@ -236,6 +236,23 @@ body {
   left: 0%;
 }
 
+@media screen and (max-width: 574px) {
+  .blog-card .description h1 {
+    line-height: 1;
+    margin: 0;
+    font-size: 20px;
+    margin-top: 70px;
+  }
+
+  .blog-card .description h2 {
+    line-height: 1;
+    margin: 0;
+    font-size: 20px;
+    margin-top: 5px;
+  }
+
+}
+
 /* @media (min-width: 640px) { */
   .blog-card {
     -webkit-box-orient: horizontal;
@@ -279,6 +296,8 @@ body {
     padding-left: 25px;
   }
 }
+
+
 
 
 /*# sourceMappingURL=coachingcards.css.map */
