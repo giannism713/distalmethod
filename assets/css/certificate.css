@@ -1092,3 +1092,32 @@ input {
         margin-bottom: 10px;
     }
 }
+
+@media screen and (max-width: 539px) {
+
+    .heroTextContainer .mainTextHero {
+        font-size: 30px;
+    }
+    .heroTextContainer .secondTextHero {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 419px) {
+
+    .heroTextContainer .mainTextHero {
+        font-size: 30px;
+    }
+
+}
+
+
+@media screen and (max-width: 347px) {
+
+.btn-container {
+    width: 100%;
+}
+
+
+}
