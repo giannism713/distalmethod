@@ -391,6 +391,13 @@ header.sticky {
   z-index: 99999;
 }
 
+@media screen and (max-width: 500px) {
+  .mobile-menu-panel.show-panel .side-panel {
+    width: 75vw;
+    margin-right: 0;
+  }
+}
+
 .mobile-menu-panel .menu-area ul li a {
   display: block;
   padding: 15px 45px 15px 0;
@@ -1711,34 +1718,24 @@ transition: 0.3s ease-in-out;
 background-color: var(--hover-color);
 }
 
-@media screen and (max-width: 1659px) {
+@media screen and (max-width: 1692px) {
 
 .nav-menu {
-  width: 120%;
+  width: 90%;
 }
 
 }
 
-@media screen and (max-width: 1615px) {
-
-  .nav-menu {
-    width: 90%;
-  }
-  
-}
-
-@media screen and (max-width: 1583px) {
+@media screen and (max-width: 1620px) {
 
   .nav-menu {
     width: 100%;
   }
   
-}
-
-@media screen and (max-width: 1561px) {
-
-  .nav-menu {
-    width: 140%;
   }
   
-}
+
+
+
+
+  

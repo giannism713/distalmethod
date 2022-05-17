@@ -102,6 +102,7 @@
 }
 .download-app h3 {
   display: inline-block;
+  color: #000;
 }
 .download-btns {
   display: flex;
