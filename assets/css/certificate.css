@@ -1120,6 +1120,14 @@ input {
     width: 40%;
 }
 
+/* small panel */
+@media screen and (max-width: 1144px) {
+    .mobile-menu-panel.show-panel .side-panel {
+        width: 75vw;
+        margin-right: 0;
+    }    
+}
+
 @media screen and (max-width: 1144px) {
     .btn-container {
         width: 80%;
