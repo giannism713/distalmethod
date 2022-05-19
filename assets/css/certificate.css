@@ -1121,7 +1121,7 @@ input {
 }
 
 /* small panel */
-@media screen and (max-width: 1144px) {
+@media screen and (max-width: 1200px) {
     .mobile-menu-panel.show-panel .side-panel {
         width: 75vw;
         margin-right: 0;
