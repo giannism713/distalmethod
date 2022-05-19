@@ -1141,7 +1141,7 @@ input {
 
 @media screen and (max-width: 486px) {
     .btn-container {
-    
+        width: 100%;
     }
 
 }
@@ -1149,7 +1149,7 @@ input {
     /*  */
 @media screen and (max-width: 484px) {
     .btn-container {
-        width: 60%;
+        width: 80%;
     }
 }
 
